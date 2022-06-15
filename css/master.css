@@ -1,0 +1,87 @@
+*{
+    overflow: hidden;
+    margin: 0;
+}
+body{
+    background-color: #436EA6;
+}
+img{
+    width: 100%;
+}
+.cohete{
+    width: 20%;
+    position: absolute;
+    top: 200px;
+    left: 450px;
+}
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #436EA6;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    padding: 10px;
+}
+.nube1{
+    background-image: url('../img/nube.png');
+    background-size: 100% 100%;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    left: 100px;
+    animation-name: movimiento1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes movimiento1 {
+   from{
+    margin-top: -15%;
+   }     
+   to{
+    margin-top: 50%;
+   }
+}
+.nube2{
+    background-image: url('../img/nube.png');
+    background-size: 100% 100%;
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    left: 450px;
+    animation-name: movimiento2;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes movimiento2 {
+   from{
+    margin-top: -16%;
+   }     
+   to{
+    margin-top: 50%;
+   }
+}
+.nube3{
+    background-image: url('../img/nube.png');
+    background-size: 100% 100%;
+    width: 190px;
+    height: 90px;
+    position: absolute;
+    right: 100px;
+    animation-name: movimiento3;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes movimiento3 {
+   from{
+    margin-top: -17%;
+   }     
+   to{
+    margin-top: 50%;
+   }
+}
+
